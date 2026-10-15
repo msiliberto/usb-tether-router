@@ -1,0 +1,19 @@
+{
+  "uuid": "usb-tether-router@msiliberto.github.io",
+  "name": "USB Tether Router",
+  "description": "Use a phone connected via USB tethering either for all traffic or only for a list of sites you choose, while everything else keeps using your usual connection. Changes are temporary: they are discarded when the phone is unplugged, when you choose Off, or when the extension is disabled. The extension stays enabled on the lock screen (with its icon hidden) so that the active mode is not dropped when the screen locks.",
+  "shell-version": [
+    "46",
+    "47",
+    "48",
+    "49",
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.usb-tether-router",
+  "gettext-domain": "usb-tether-router",
+  "version-name": "1.0",
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ]
+}

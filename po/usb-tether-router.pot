@@ -1,0 +1,128 @@
+# USB Tether Router translation template.
+# This file is distributed under the same license as the USB Tether Router package.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "USB Tether Router"
+msgstr ""
+
+msgid "Phone not connected"
+msgstr ""
+
+msgid "Applying…"
+msgstr ""
+
+msgid "All traffic goes through %s"
+msgstr ""
+
+msgid "Phone connected (%s), not in use"
+msgstr ""
+
+msgid "All traffic via phone"
+msgstr ""
+
+msgid "Only listed sites via phone"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Sites via phone"
+msgstr ""
+
+msgid "No sites yet"
+msgstr ""
+
+msgid "Add site (URL or domain)…"
+msgstr ""
+
+msgid "Add site"
+msgstr ""
+
+msgid "Remove site"
+msgstr ""
+
+msgid "Preferences"
+msgstr ""
+
+msgid "“%s” is not a valid site."
+msgstr ""
+
+msgid "Phone not found: connect it via USB and turn on USB tethering."
+msgstr ""
+
+msgid "Could not read the phone connection settings."
+msgstr ""
+
+msgid "The phone connection failed."
+msgstr ""
+
+msgid "Timed out while connecting to the phone."
+msgstr ""
+
+msgid "The phone was disconnected."
+msgstr ""
+
+msgid "The site list is empty: add at least one site."
+msgstr ""
+
+msgid "Could not find the phone gateway: try again in a few seconds."
+msgstr ""
+
+msgid "Could not resolve any site through the phone."
+msgstr ""
+
+msgid "The phone connection has no IPv4 settings."
+msgstr ""
+
+msgid "In “Only listed sites” mode these sites go through the phone, everything else keeps using your usual connection. URLs are accepted: only the domain is kept."
+msgstr ""
+
+msgid "If a site does not open"
+msgstr ""
+
+msgid "Turn off “Secure DNS” (DNS over HTTPS) in the browser, otherwise it ignores the system DNS."
+msgstr ""
+
+msgid "Add the other domains the site uses (CDN, images…)."
+msgstr ""
+
+msgid "If the site addresses changed, choose the mode again from the menu."
+msgstr ""
+
+msgid "Top bar"
+msgstr ""
+
+msgid "The icon is blue while all traffic goes through the phone and green while only the listed sites do."
+msgstr ""
+
+msgid "Top bar area"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Position within the area"
+msgstr ""
+
+msgid "0 = at the start of the area"
+msgstr ""
+
+msgid "Open the menu when the phone is connected"
+msgstr ""
+
+msgid "A reminder to choose a mode"
+msgstr ""
+
+msgid "%d address goes through %s"
+msgid_plural "%d addresses go through %s"
+msgstr[0] ""
+msgstr[1] ""

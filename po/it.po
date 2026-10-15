@@ -1,0 +1,132 @@
+# Italian translation for USB Tether Router.
+# This file is distributed under the same license as the USB Tether Router package.
+msgid ""
+msgstr ""
+"Project-Id-Version: usb-tether-router\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "USB Tether Router"
+msgstr "USB Tether Router"
+
+msgid "Phone not connected"
+msgstr "Telefono non collegato"
+
+msgid "Applying…"
+msgstr "Applicazione in corso…"
+
+msgid "All traffic goes through %s"
+msgstr "Tutto il traffico passa da %s"
+
+msgid "Phone connected (%s), not in use"
+msgstr "Telefono collegato (%s), non in uso"
+
+msgid "All traffic via phone"
+msgstr "Tutto via telefono"
+
+msgid "Only listed sites via phone"
+msgstr "Solo i siti in elenco via telefono"
+
+msgid "Off"
+msgstr "Disattivato"
+
+msgid "Sites via phone"
+msgstr "Siti via telefono"
+
+msgid "No sites yet"
+msgstr "Nessun sito"
+
+msgid "Add site (URL or domain)…"
+msgstr "Aggiungi sito (URL o dominio)…"
+
+msgid "Add site"
+msgstr "Aggiungi sito"
+
+msgid "Remove site"
+msgstr "Rimuovi sito"
+
+msgid "Preferences"
+msgstr "Preferenze"
+
+msgid "“%s” is not a valid site."
+msgstr "«%s» non è un sito valido."
+
+msgid "Phone not found: connect it via USB and turn on USB tethering."
+msgstr "Telefono non trovato: collegalo via USB e attiva il tethering USB."
+
+msgid "Could not read the phone connection settings."
+msgstr "Impossibile leggere le impostazioni della connessione del telefono."
+
+msgid "The phone connection failed."
+msgstr "La connessione al telefono non è riuscita."
+
+msgid "Timed out while connecting to the phone."
+msgstr "Tempo scaduto durante la connessione al telefono."
+
+msgid "The phone was disconnected."
+msgstr "Il telefono è stato scollegato."
+
+msgid "The site list is empty: add at least one site."
+msgstr "L'elenco dei siti è vuoto: aggiungi almeno un sito."
+
+msgid "Could not find the phone gateway: try again in a few seconds."
+msgstr "Non trovo il gateway del telefono: riprova tra qualche secondo."
+
+msgid "Could not resolve any site through the phone."
+msgstr "Non sono riuscito a risolvere nessun sito tramite il telefono."
+
+msgid "The phone connection has no IPv4 settings."
+msgstr "La connessione del telefono non ha impostazioni IPv4."
+
+msgid "In “Only listed sites” mode these sites go through the phone, everything else keeps using your usual connection. URLs are accepted: only the domain is kept."
+msgstr "In modalità «Solo i siti in elenco» questi siti passano dal telefono, tutto il resto continua a usare la connessione abituale. Sono accettati anche URL completi: viene tenuto solo il dominio."
+
+msgid "If a site does not open"
+msgstr "Se un sito non si apre"
+
+msgid "Turn off “Secure DNS” (DNS over HTTPS) in the browser, otherwise it ignores the system DNS."
+msgstr "Disattiva il «DNS sicuro» (DNS over HTTPS) del browser, altrimenti il browser ignora il DNS di sistema."
+
+msgid "Add the other domains the site uses (CDN, images…)."
+msgstr "Aggiungi gli altri domini usati dal sito (CDN, immagini…)."
+
+msgid "If the site addresses changed, choose the mode again from the menu."
+msgstr "Se gli indirizzi del sito sono cambiati, scegli di nuovo la modalità dal menu."
+
+msgid "Top bar"
+msgstr "Barra superiore"
+
+msgid "The icon is blue while all traffic goes through the phone and green while only the listed sites do."
+msgstr "L'icona diventa blu quando tutto il traffico passa dal telefono e verde quando passano solo i siti in elenco."
+
+msgid "Top bar area"
+msgstr "Zona della barra"
+
+msgid "Left"
+msgstr "Sinistra"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "Right"
+msgstr "Destra"
+
+msgid "Position within the area"
+msgstr "Posizione dentro la zona"
+
+msgid "0 = at the start of the area"
+msgstr "0 = all'estremità iniziale"
+
+msgid "%d address goes through %s"
+msgid_plural "%d addresses go through %s"
+msgstr[0] "%d indirizzo passa da %s"
+msgstr[1] "%d indirizzi passano da %s"
+
+msgid "Open the menu when the phone is connected"
+msgstr "Apri il menu quando si collega il telefono"
+
+msgid "A reminder to choose a mode"
+msgstr "Per ricordarti di scegliere una modalità"

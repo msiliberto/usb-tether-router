@@ -1,0 +1,42 @@
+/* Panel */
+
+/* The theme gives .system-status-icon `padding: 0 6px; margin: 0 4px` and the
+ * button another 12px per side: too much room around a single icon. */
+#panel .panel-button .usb-tether-icon {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#panel .panel-button.usb-tether-button {
+  -natural-hpadding: 6px;
+  -minimum-hpadding: 4px;
+}
+
+/* Icon color while the phone is in use */
+#panel .usb-tether-icon.usb-tether-all {
+  color: #62a0ea;
+}
+#panel .usb-tether-icon.usb-tether-sites {
+  color: #57e389;
+}
+#panel .usb-tether-light-panel .usb-tether-icon.usb-tether-all {
+  color: #1a5fb4;
+}
+#panel .usb-tether-light-panel .usb-tether-icon.usb-tether-sites {
+  color: #1c7c47;
+}
+
+/* Menu */
+
+.usb-tether-site-label {
+  padding-right: 12px;
+}
+
+.usb-tether-entry {
+  min-width: 220px;
+}
+
+.usb-tether-button-small {
+  padding: 4px;
+  border-radius: 99px;
+}
