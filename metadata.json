@@ -12,6 +12,7 @@
   "settings-schema": "org.gnome.shell.extensions.usb-tether-router",
   "gettext-domain": "usb-tether-router",
   "version-name": "1.0",
+  "url": "https://github.com/msiliberto/usb-tether-router",
   "session-modes": [
     "user",
     "unlock-dialog"
