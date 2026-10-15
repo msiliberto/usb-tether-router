@@ -323,7 +323,7 @@ export class TetherManager extends EventEmitter {
         const gw6 = device.get_ip6_config()?.get_gateway() || null;
 
         // Resolve through the phone's DNS, the answer may differ from the usual network
-        const ifindex = this._ifindex(device);
+        const ifindex = await this._ifindex(device);
         const routes4 = [];
         const routes6 = [];
         for (const site of sites) {
@@ -357,9 +357,18 @@ export class TetherManager extends EventEmitter {
         return [...new Set([...routes4, ...routes6])];
     }
 
-    _ifindex(device) {
+    async _ifindex(device) {
         const iface = device.get_ip_iface() || device.get_iface();
-        const [, bytes] = GLib.file_get_contents(`/sys/class/net/${iface}/ifindex`);
+        const file = Gio.File.new_for_path(`/sys/class/net/${iface}/ifindex`);
+        const [bytes] = await new Promise((resolve, reject) => {
+            file.load_contents_async(this._cancellable, (f, res) => {
+                try {
+                    resolve(f.load_contents_finish(res));
+                } catch (e) {
+                    reject(e);
+                }
+            });
+        });
         return parseInt(new TextDecoder().decode(bytes), 10);
     }
 

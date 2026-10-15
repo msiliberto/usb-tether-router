@@ -106,6 +106,12 @@ export default class UsbTetherRouterExtension extends Extension {
     }
 
     disable() {
+        // This extension uses the 'unlock-dialog' session mode so that it is
+        // not disabled when the screen locks: the phone's routing set up by
+        // the active mode must keep working while the session is locked, and
+        // in that state only the indicator is hidden (see _syncSessionMode()).
+        // disable() therefore runs only on logout, when the extension is
+        // turned off or when it is updated.
         Main.sessionMode.disconnectObject(this);
         this._settings.disconnectObject(this);
         this._unwatchZone();
